@@ -1,6 +1,6 @@
-FROM gliderlabs/alpine:3.4
+FROM ubuntu
 
-RUN apk --update add \
+RUN apt install   \
   ca-certificates \
   bash \
   jq \

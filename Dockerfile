@@ -4,6 +4,7 @@ RUN apt install   \
   ca-certificates \
   bash \
   jq \
+  npm \
   nodejs \
   git
 
